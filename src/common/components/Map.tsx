@@ -51,6 +51,9 @@ const Map = () => {
                 })
               }
             >
+              <Popup>
+                <span className="font-bold">{city.name}</span>
+              </Popup>
             </Marker>
           );
         })}
