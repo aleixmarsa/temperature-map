@@ -1,4 +1,4 @@
-import citiesData from "../pages/data/data.json";
+import citiesData from "../../data/data.json";
 
 const getCititesCoords = (): {name:string, coords:number[]}[] => {
     const cititesCoords = citiesData.map((city) =>{

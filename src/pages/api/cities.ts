@@ -1,4 +1,4 @@
-import getCititesCoords from "../../utils/dataFunctions";
+import getCititesCoords from "../../common/utils/dataFunctions";
 
 import type { NextApiRequest, NextApiResponse } from "next";
 
