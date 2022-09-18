@@ -2,7 +2,6 @@ import L from "leaflet";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import axios, { AxiosResponse } from "axios";
 import { useEffect, useState } from "react";
-import getCititesCoords from "../utils/dataFunctions";
 import { checkServerIdentity } from "tls";
 import { Icon } from "leaflet";
 import ThermometerMarker from "../../assets/thermometer_marker.png";
@@ -14,9 +13,18 @@ const Map = () => {
     const response = await axios.get(`${baseURL}api/cities`);
     setCities(response.data);
   };
+
+const handleCLick = async (id:number) => {
+  console.log("🚀 ~ file: Map.tsx ~ line 18 ~ handleCLick ~ id", id)
+  const baseURL = window.location.href;
+  const response = await axios.get(`${baseURL}api/${id}`);
+  console.log("🚀 ~ file: Map.tsx ~ line 20 ~ handleCLick ~ response", response)
+}
+
   useEffect(() => {
     fetchCititesCoords();
   }, []);
+  
   const currentPosition = new L.LatLng(41.39770124637789, 2.1904024540457168);
   return (
     <div>
@@ -50,6 +58,11 @@ const Map = () => {
                   iconAnchor: [20, 30],
                 })
               }
+              eventHandlers={{
+                click: ((e) => handleCLick(city.id) )
+                  
+                ,
+              }}
             >
               <Popup>
                 <span className="font-bold">{city.name}</span>

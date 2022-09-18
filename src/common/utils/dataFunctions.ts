@@ -1,8 +1,9 @@
 import citiesData from "../../data/data.json";
 
-const getCititesCoords = (): {name:string, coords:number[]}[] => {
+export const getCititesCoords = (): {id:number, name:string, coords:number[]}[] => {
     const cititesCoords = citiesData.map((city) =>{
         return  {
+            id: city.id,
             name: city.city,
             coords: city.coords
 
@@ -11,6 +12,8 @@ const getCititesCoords = (): {name:string, coords:number[]}[] => {
     return cititesCoords;
 };
 
+export const getCityTemperature = (id:string) => {
+    const cityTemperature: Object = citiesData.filter((city)=> city.id === parseInt(id))
+    return cityTemperature
+}
 
-
-export default getCititesCoords;
