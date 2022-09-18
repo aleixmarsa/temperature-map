@@ -12,10 +12,12 @@
     "@mantine/core": "^5.3.3",
     "@mantine/hooks": "^5.3.3",
     "@mantine/next": "^5.3.3",
+    "@types/leaflet": "^1.8.0",
     "axios": "^0.27.2",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-leaflet": "^4.0.2"
   },
   "devDependencies": {
     "@types/node": "18.7.18",
