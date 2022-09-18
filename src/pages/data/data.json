@@ -2,6 +2,7 @@
     {
       "id": 1,
       "city": "Amsterdam",
+      "coords": [52.37403, 4.88969],
       "country": "Netherlands",
       "monthlyAvg": [
         {
@@ -85,6 +86,7 @@
     {
       "id": 2,
       "city": "Athens",
+      "coords": [37.98376, 23.72784],
       "country": "Greece",
       "monthlyAvg": [
         {
@@ -164,6 +166,7 @@
     {
       "id": 3,
       "city": "Atlanta GA",
+      "coords": [33.749, -84.38798],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -243,6 +246,7 @@
     {
       "id": 4,
       "city": "Auckland",
+      "coords": [-36.84853, 174.76349],
       "country": "New Zealand",
       "monthlyAvg": [
         {
@@ -322,6 +326,7 @@
     {
       "id": 5,
       "city": "Austin TX",
+      "coords": [30.26715, -97.74306],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -401,6 +406,7 @@
     {
       "id": 6,
       "city": "Bangkok",
+      "coords": [13.75398, 100.50144],
       "country": "Thailand",
       "monthlyAvg": [
         {
@@ -480,6 +486,7 @@
     {
       "id": 7,
       "city": "Barcelona",
+      "coords": [41.38879, 2.15899],
       "country": "Spain",
       "monthlyAvg": [
         {
@@ -559,6 +566,7 @@
     {
       "id": 8,
       "city": "Beijing",
+      "coords": [39.9075, 116.39723],
       "country": "China",
       "monthlyAvg": [
         {
@@ -638,6 +646,7 @@
     {
       "id": 9,
       "city": "Berlin",
+      "coords": [52.52437, 13.41053],
       "country": "Germany",
       "monthlyAvg": [
         {
@@ -717,6 +726,7 @@
     {
       "id": 10,
       "city": "Bologna",
+      "coords": [44.49381, 11.33875],
       "country": "Italy",
       "monthlyAvg": [
         {
@@ -796,6 +806,7 @@
     {
       "id": 11,
       "city": "Boston MA",
+      "coords":[42.35843, -71.05977],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -875,6 +886,7 @@
     {
       "id": 12,
       "city": "Boulder CO",
+      "coords":[40.01499, -105.27055],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -954,6 +966,7 @@
     {
       "id": 13,
       "city": "Brasilia",
+      "coords":[-15.77972, -47.92972],
       "country": "Brazil",
       "monthlyAvg": [
         {
@@ -1033,6 +1046,7 @@
     {
       "id": 14,
       "city": "Brisbane",
+      "coords":[-27.46794, 153.02809],
       "country": "Australia",
       "monthlyAvg": [
         {
@@ -1112,6 +1126,7 @@
     {
       "id": 15,
       "city": "Brussels",
+      "coords":[50.85045, 4.34878],
       "country": "Belgium",
       "monthlyAvg": [
         {
@@ -1191,6 +1206,7 @@
     {
       "id": 16,
       "city": "Budapest",
+      "coords":[47.49835, 19.04045],
       "country": "Hungary",
       "monthlyAvg": [
         {
@@ -1270,6 +1286,7 @@
     {
       "id": 17,
       "city": "Buenos Aires",
+      "coords":[-34.61315, -58.37723],
       "country": "Argentina",
       "monthlyAvg": [
         {
@@ -1349,6 +1366,7 @@
     {
       "id": 18,
       "city": "Calgary",
+      "coords":[51.05011, -114.08529],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -1428,6 +1446,7 @@
     {
       "id": 19,
       "city": "Canberra",
+      "coords":[-35.28346, 149.12807],
       "country": "Australia",
       "monthlyAvg": [
         {
@@ -1507,6 +1526,7 @@
     {
       "id": 20,
       "city": "Cape Town",
+      "coords":[-33.92584, 18.42322],
       "country": "South Africa",
       "monthlyAvg": [
         {
@@ -1586,6 +1606,7 @@
     {
       "id": 21,
       "city": "Chiang Mai",
+      "coords":[18.79038, 98.98468],
       "country": "Thailand",
       "monthlyAvg": [
         {
@@ -1665,6 +1686,7 @@
     {
       "id": 22,
       "city": "Chicago IL",
+      "coords":[41.85003, -87.65005],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -1744,6 +1766,7 @@
     {
       "id": 23,
       "city": "Christchurch",
+      "coords":[-43.53333, 172.63333],
       "country": "New Zealand",
       "monthlyAvg": [
         {
@@ -1823,6 +1846,7 @@
     {
       "id": 24,
       "city": "Copenhagen",
+      "coords":[55.67594, 12.56553],
       "country": "Denmark",
       "monthlyAvg": [
         {
@@ -1902,6 +1926,7 @@
     {
       "id": 25,
       "city": "Dallas TX",
+      "coords":[32.78306, -96.80667],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -1981,6 +2006,7 @@
     {
       "id": 26,
       "city": "Denver CO",
+      "coords":[39.73915, -104.9847],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -2060,6 +2086,7 @@
     {
       "id": 27,
       "city": "Detroit MI",
+      "coords":[42.33143, -83.04575],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -2139,6 +2166,7 @@
     {
       "id": 28,
       "city": "Dubai",
+      "coords":[25.07725, 55.30927],
       "country": "United Arab Emirates",
       "monthlyAvg": [
         {
@@ -2218,6 +2246,7 @@
     {
       "id": 29,
       "city": "Dublin",
+      "coords":[53.33306, -6.24889],
       "country": "Ireland",
       "monthlyAvg": [
         {
@@ -2297,6 +2326,7 @@
     {
       "id": 30,
       "city": "Granada",
+      "coords":[37.18817, -3.60667],
       "country": "Spain",
       "monthlyAvg": [
         {
@@ -2376,6 +2406,7 @@
     {
       "id": 31,
       "city": "Halifax",
+      "coords":[44.6464, -63.57291],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -2455,6 +2486,7 @@
     {
       "id": 32,
       "city": "Hanoi",
+      "coords":[21.0245, 105.84117],
       "country": "Vietnam",
       "monthlyAvg": [
         {
@@ -2534,6 +2566,7 @@
     {
       "id": 33,
       "city": "Ho Chi Minh city",
+      "coords":[10.82302, 106.62965],
       "country": "Vietnam",
       "monthlyAvg": [
         {
@@ -2613,6 +2646,7 @@
     {
       "id": 34,
       "city": "Hong Kong",
+      "coords":[22.396428, 114.109497],
       "country": "Hong Kong",
       "monthlyAvg": [
         {
@@ -2692,6 +2726,7 @@
     {
       "id": 35,
       "city": "Honolulu",
+      "coords":[21.30694, -157.85833],
       "country": "Hawaii",
       "monthlyAvg": [
         {
@@ -2771,6 +2806,7 @@
     {
       "id": 36,
       "city": "Istanbul",
+      "coords":[41.01384, 28.94966],
       "country": "Turkey",
       "monthlyAvg": [
         {
@@ -2850,6 +2886,7 @@
     {
       "id": 37,
       "city": "Jakarta",
+      "coords":[-6.21462, 106.84513],
       "country": "Indonesia",
       "monthlyAvg": [
         {
@@ -2929,6 +2966,7 @@
     {
       "id": 38,
       "city": "Jerusalem",
+      "coords":[31.76904, 35.21633],
       "country": "Israel",
       "monthlyAvg": [
         {
@@ -3008,6 +3046,7 @@
     {
       "id": 39,
       "city": "Johannesburg",
+      "coords":[-26.20227, 28.04363],
       "country": "South Africa",
       "monthlyAvg": [
         {
@@ -3087,6 +3126,7 @@
     {
       "id": 40,
       "city": "Kansas city MO",
+      "coords":[39.09973, -94.57857],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -3165,7 +3205,8 @@
     },
     {
       "id": 41,
-      "city": "Kolkata",
+      "city": "22.56263, 88.36304",
+      "coords":[22.56263, 88.36304],
       "country": "India",
       "monthlyAvg": [
         {
@@ -3245,6 +3286,7 @@
     {
       "id": 42,
       "city": "Kuala Lumpur",
+      "coords":[3.1412, 101.68653],
       "country": "Malaysia",
       "monthlyAvg": [
         {
@@ -3324,6 +3366,7 @@
     {
       "id": 43,
       "city": "Las Vegas NV",
+      "coords":[36.17497, -115.13722],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -3403,6 +3446,7 @@
     {
       "id": 44,
       "city": "Lisbon",
+      "coords":[38.71667, -9.13333],
       "country": "Portugal",
       "monthlyAvg": [
         {
@@ -3482,6 +3526,7 @@
     {
       "id": 45,
       "city": "London",
+      "coords":[51.50853, -0.12574],
       "country": "United Kingdom",
       "monthlyAvg": [
         {
@@ -3561,6 +3606,7 @@
     {
       "id": 46,
       "city": "Los Angeles CA",
+      "coords":[34.05223, -118.24368],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -3640,6 +3686,7 @@
     {
       "id": 47,
       "city": "Madrid",
+      "coords":[40.4165, -3.70256],
       "country": "Spain",
       "monthlyAvg": [
         {
@@ -3719,6 +3766,7 @@
     {
       "id": 48,
       "city": "Marseille",
+      "coords":[43.29695, 5.38107],
       "country": "France",
       "monthlyAvg": [
         {
@@ -3798,6 +3846,7 @@
     {
       "id": 49,
       "city": "Melbourne",
+      "coords":[-37.814, 144.96332],
       "country": "Australia",
       "monthlyAvg": [
         {
@@ -3877,6 +3926,7 @@
     {
       "id": 50,
       "city": "Mexico city",
+      "coords":[19.42847, -99.12766],
       "country": "Mexico",
       "monthlyAvg": [
         {
@@ -3956,6 +4006,7 @@
     {
       "id": 51,
       "city": "Miami FL",
+      "coords":[25.77427, -80.19366],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -4035,6 +4086,7 @@
     {
       "id": 52,
       "city": "Montreal",
+      "coords":[45.50884, -73.58781],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -4114,6 +4166,7 @@
     {
       "id": 53,
       "city": "Moscow",
+      "coords":[55.75222, 37.61556],
       "country": "Russia",
       "monthlyAvg": [
         {
@@ -4193,6 +4246,7 @@
     {
       "id": 54,
       "city": "Mumbai",
+      "coords":[19.07283, 72.88261],
       "country": "India",
       "monthlyAvg": [
         {
@@ -4272,6 +4326,7 @@
     {
       "id": 55,
       "city": "New Delhi",
+      "coords":[28.65195, 77.23149],
       "country": "India",
       "monthlyAvg": [
         {
@@ -4351,6 +4406,7 @@
     {
       "id": 56,
       "city": "New Orleans LA",
+      "coords":[29.95465, -90.07507],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -4430,6 +4486,7 @@
     {
       "id": 57,
       "city": "New York city NY",
+      "coords":[40.71427, -74.00597],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -4509,6 +4566,7 @@
     {
       "id": 58,
       "city": "Oakland CA",
+      "coords":[37.80437, -122.2708],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -4588,6 +4646,7 @@
     {
       "id": 59,
       "city": "Orlando FL",
+      "coords":[28.53834, -81.37924],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -4667,6 +4726,7 @@
     {
       "id": 60,
       "city": "Osaka",
+      "coords":[34.69374, 135.50218],
       "country": "Japan",
       "monthlyAvg": [
         {
@@ -4746,6 +4806,7 @@
     {
       "id": 61,
       "city": "Oslo",
+      "coords":[59.91273, 10.74609],
       "country": "Norway",
       "monthlyAvg": [
         {
@@ -4825,6 +4886,7 @@
     {
       "id": 62,
       "city": "Ottawa",
+      "coords":[45.41117, -75.69812],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -4904,6 +4966,7 @@
     {
       "id": 63,
       "city": "Paris",
+      "coords":[48.85341, 2.3488],
       "country": "France",
       "monthlyAvg": [
         {
@@ -4983,6 +5046,7 @@
     {
       "id": 64,
       "city": "Philadelphia PA",
+      "coords":[39.95233, -75.16379],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -5062,6 +5126,7 @@
     {
       "id": 65,
       "city": "Phoenix AZ",
+      "coords":[33.44838, -112.07404],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -5141,6 +5206,7 @@
     {
       "id": 66,
       "city": "Phuket",
+      "coords":[7.89059, 98.3981],
       "country": "Thailand",
       "monthlyAvg": [
         {
@@ -5220,6 +5286,7 @@
     {
       "id": 67,
       "city": "Portland OR",
+      "coords":[45.52345, -122.6762],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -5299,6 +5366,7 @@
     {
       "id": 68,
       "city": "Porto",
+      "coords":[41.14961, -8.61099],
       "country": "Portugal",
       "monthlyAvg": [
         {
@@ -5378,6 +5446,7 @@
     {
       "id": 69,
       "city": "Prague",
+      "coords":[50.08804, 14.42076],
       "country": "Czech Republic",
       "monthlyAvg": [
         {
@@ -5457,6 +5526,7 @@
     {
       "id": 70,
       "city": "Quebec city",
+      "coords":[46.81228, -71.21454],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -5536,6 +5606,7 @@
     {
       "id": 71,
       "city": "Reykjavik",
+      "coords":[64.13548, -21.89541],
       "country": "Iceland",
       "monthlyAvg": [
         {
@@ -5615,6 +5686,7 @@
     {
       "id": 72,
       "city": "Rio de Janeiro",
+      "coords":[-22.90642, -43.18223],
       "country": "Brazil",
       "monthlyAvg": [
         {
@@ -5694,6 +5766,7 @@
     {
       "id": 73,
       "city": "Rome",
+      "coords":[41.89193, 12.51133],
       "country": "Italy",
       "monthlyAvg": [
         {
@@ -5773,6 +5846,7 @@
     {
       "id": 74,
       "city": "Saint Petersburg",
+      "coords":[59.93863, 30.31413],
       "country": "Russia",
       "monthlyAvg": [
         {
@@ -5852,6 +5926,7 @@
     {
       "id": 75,
       "city": "Salt Lake city UT",
+      "coords":[40.76078, -111.89105],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -5931,6 +6006,7 @@
     {
       "id": 76,
       "city": "San Francisco CA",
+      "coords":[37.77493, -122.41942],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -6010,6 +6086,7 @@
     {
       "id": 77,
       "city": "Santiago",
+      "coords":[-33.45694, -70.64827],
       "country": "Chile",
       "monthlyAvg": [
         {
@@ -6089,6 +6166,7 @@
     {
       "id": 78,
       "city": "Sao Paulo",
+      "coords":[-23.5475, -46.63611],
       "country": "Brazil",
       "monthlyAvg": [
         {
@@ -6168,6 +6246,7 @@
     {
       "id": 79,
       "city": "Seattle WA",
+      "coords":[47.60621, -122.33207],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -6247,6 +6326,7 @@
     {
       "id": 80,
       "city": "Seoul",
+      "coords":[37.566, 126.9784],
       "country": "South Korea",
       "monthlyAvg": [
         {
@@ -6326,6 +6406,7 @@
     {
       "id": 81,
       "city": "Sevilla",
+      "coords":[37.38283, -5.97317],
       "country": "Spain",
       "monthlyAvg": [
         {
@@ -6405,6 +6486,7 @@
     {
       "id": 82,
       "city": "Shanghai",
+      "coords":[31.22222, 121.45806],
       "country": "China",
       "monthlyAvg": [
         {
@@ -6484,6 +6566,7 @@
     {
       "id": 83,
       "city": "Singapore",
+      "coords":[1.28967, 103.85007],
       "country": "Singapore",
       "monthlyAvg": [
         {
@@ -6563,6 +6646,7 @@
     {
       "id": 84,
       "city": "Sofia",
+      "coords":[42.69751, 23.32415],
       "country": "Bulgaria",
       "monthlyAvg": [
         {
@@ -6642,6 +6726,7 @@
     {
       "id": 85,
       "city": "Stockholm",
+      "coords":[59.32938, 18.06871],
       "country": "Sweden",
       "monthlyAvg": [
         {
@@ -6721,6 +6806,7 @@
     {
       "id": 86,
       "city": "Sydney",
+      "coords":[-33.86785, 151.20732],
       "country": "Australia",
       "monthlyAvg": [
         {
@@ -6800,6 +6886,7 @@
     {
       "id": 87,
       "city": "Taghazout",
+      "coords":[30.54259, -9.71115],
       "country": "Morocco",
       "monthlyAvg": [
         {
@@ -6879,6 +6966,7 @@
     {
       "id": 88,
       "city": "Tel Aviv",
+      "coords":[32.08088, 34.78057],
       "country": "Israel",
       "monthlyAvg": [
         {
@@ -6958,6 +7046,7 @@
     {
       "id": 89,
       "city": "Tokyo",
+      "coords":[35.6895, 139.69171],
       "country": "Japan",
       "monthlyAvg": [
         {
@@ -7037,6 +7126,7 @@
     {
       "id": 90,
       "city": "Toronto",
+      "coords":[43.70011, -79.4163],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -7116,6 +7206,7 @@
     {
       "id": 91,
       "city": "Tucson AZ",
+      "coords":[32.22174, -110.92648],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -7195,6 +7286,7 @@
     {
       "id": 92,
       "city": "Ubud Bali",
+      "coords":[-8.5098, 115.2654],
       "country": "Indonesia",
       "monthlyAvg": [
         {
@@ -7274,6 +7366,7 @@
     {
       "id": 93,
       "city": "Valencia",
+      "coords":[39.46975, -0.37739],
       "country": "Spain",
       "monthlyAvg": [
         {
@@ -7353,6 +7446,7 @@
     {
       "id": 94,
       "city": "Vancouver",
+      "coords":[49.24966, -123.11934],
       "country": "Canada",
       "monthlyAvg": [
         {
@@ -7432,6 +7526,7 @@
     {
       "id": 95,
       "city": "Venice",
+      "coords":[45.43713, 12.33265],
       "country": "Italy",
       "monthlyAvg": [
         {
@@ -7511,6 +7606,7 @@
     {
       "id": 96,
       "city": "Vienna",
+      "coords":[48.20849, 16.37208],
       "country": "Austria",
       "monthlyAvg": [
         {
@@ -7590,6 +7686,7 @@
     {
       "id": 97,
       "city": "Warsaw",
+      "coords":[52.22977, 21.01178],
       "country": "Poland",
       "monthlyAvg": [
         {
@@ -7669,6 +7766,7 @@
     {
       "id": 98,
       "city": "Washington DC",
+      "coords":[38.89511, -77.03637],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -7748,6 +7846,7 @@
     {
       "id": 99,
       "city": "Wellington",
+      "coords":[-41.28664, 174.77557],
       "country": "New Zealand",
       "monthlyAvg": [
         {
@@ -7827,6 +7926,7 @@
     {
       "id": 100,
       "city": "Zurich",
+      "coords":[42.19697, -88.09341],
       "country": "Switzerland",
       "monthlyAvg": [
         {
@@ -7906,6 +8006,7 @@
     {
       "id": 101,
       "city": "Albuquerque NM",
+      "coords":[35.08449, -106.65114],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -7985,6 +8086,7 @@
     {
       "id": 102,
       "city": "Vermont IL",
+      "coords":[40.29421, -90.4279],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -8064,6 +8166,7 @@
     {
       "id": 103,
       "city": "Nashville TE",
+      "coords":[36.16589, -86.78444],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -8143,6 +8246,7 @@
     {
       "id": 104,
       "city": "St. Louis MO",
+      "coords":[38.62727, -90.19789],
       "country": "United States",
       "monthlyAvg": [
         {
@@ -8222,6 +8326,7 @@
     {
       "id": 105,
       "city": "Minneapolis MN",
+      "coords":[44.97997, -93.26384],
       "country": "United States",
       "monthlyAvg": [
         {
