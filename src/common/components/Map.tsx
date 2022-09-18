@@ -4,7 +4,6 @@ import axios, { AxiosResponse } from "axios";
 import { useEffect, useState } from "react";
 import { checkServerIdentity } from "tls";
 import { Icon } from "leaflet";
-import ThermometerMarker from "../../assets/thermometer_marker.png";
 const Map = () => {
   const [citites, setCities] = useState<any[]>([]);
 
@@ -18,7 +17,6 @@ const handleCLick = async (id:number) => {
   console.log("🚀 ~ file: Map.tsx ~ line 18 ~ handleCLick ~ id", id)
   const baseURL = window.location.href;
   const response = await axios.get(`${baseURL}api/${id}`);
-  console.log("🚀 ~ file: Map.tsx ~ line 20 ~ handleCLick ~ response", response)
 }
 
   useEffect(() => {

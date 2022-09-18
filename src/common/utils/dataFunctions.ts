@@ -13,7 +13,7 @@ export const getCititesCoords = (): {id:number, name:string, coords:number[]}[] 
 };
 
 export const getCityTemperature = (id:string) => {
-    const cityTemperature: Object = citiesData.filter((city)=> city.id === parseInt(id))
+    const cityTemperature: any = citiesData.filter((city)=> city.id === parseInt(id))[0].monthlyAvg.map(({high, low}) =>({ high, low}))
     return cityTemperature
 }
 
