@@ -4,32 +4,17 @@ import axios, { AxiosResponse } from "axios";
 import { useEffect, useState } from "react";
 import { checkServerIdentity } from "tls";
 import { Icon } from "leaflet";
-
-interface City {
-  id: number;
-  name: string;
-  coords: [number, number];
-}
+import useFetchCitiesCoords from "../../hooks/useFetchCititesCoords"
 
 interface Temperature {
   high: number;
   low: number;
 }
 
-interface MapState{
-  citites: Array<City>;
-  temperatures: Array<Temperature>;
-}
-
 const Map = () => {
-  const [citites, setCities] = useState<MapState["citites"]>([]);
-  const [temperatures, setTemperatures] = useState<MapState["temperatures"]>([]);
+  const [temperatures, setTemperatures] = useState<Array<Temperature>>([]);
+  const citites = useFetchCitiesCoords()
 
-  const fetchCititesCoords = async () => {
-    const baseURL = window.location.href;
-    const response = await axios.get(`${baseURL}api/cities`);
-    setCities(response.data);
-  };
 
   const handleCLick = async (id: number) => {
     console.log("🚀 ~ file: Map.tsx ~ line 18 ~ handleCLick ~ id", id);
@@ -38,9 +23,7 @@ const Map = () => {
     setTemperatures(response.data);
   };
 
-  useEffect(() => {
-    fetchCititesCoords();
-  }, []);
+
 
   const currentPosition = new L.LatLng(41.39770124637789, 2.1904024540457168);
   return (
