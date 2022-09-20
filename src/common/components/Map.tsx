@@ -5,15 +5,25 @@ import { useEffect, useState } from "react";
 import { checkServerIdentity } from "tls";
 import { Icon } from "leaflet";
 import useFetchCitiesCoords from "../../hooks/useFetchCititesCoords"
-
+import {FC} from 'react'
 interface Temperature {
   high: number;
   low: number;
 }
+interface City {
+  id: number;
+  name: string;
+  coords: [number, number];
+}
 
-const Map = () => {
+interface Props {
+  cities: City[],
+}
+
+
+export default function Map ({cities}:Props){
+  console.log("🚀 ~ file: Map.tsx ~ line 25 ~ Map ~ cities", cities)
   const [temperatures, setTemperatures] = useState<Array<Temperature>>([]);
-  const citites = useFetchCitiesCoords()
 
 
   const handleCLick = async (id: number) => {
@@ -22,8 +32,6 @@ const Map = () => {
     const response = await axios.get(`${baseURL}api/${id}`);
     setTemperatures(response.data);
   };
-
-
 
   const currentPosition = new L.LatLng(41.39770124637789, 2.1904024540457168);
   return (
@@ -46,7 +54,7 @@ const Map = () => {
           minZoom={2.5}
           noWrap={true}
         ></TileLayer>
-        {citites.map((city, index) => {
+        {cities.map((city, index) => {
           return (
             <Marker
               key={city.id}
@@ -81,4 +89,3 @@ const Map = () => {
   );
 };
 
-export default Map;
